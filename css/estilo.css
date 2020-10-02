@@ -1,0 +1,134 @@
+:root{
+    --cor-principal: #FFFF00;
+    --cor-secundária: #FFBF00;
+    --cor-terciária: #BFFF00;
+}
+
+@font-face{
+    font-family: Gotham;
+    src: local(Gotham) url(../fontes/Gotham-Font/GothamMedium.ttf);
+}
+
+@font-face{
+    font-family: Gotham;
+    src: local(Gotham) url(../fontes/Gotham-Font/GothamBold.ttf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Gotham;
+    src: local(Gotham) url(../fontes/Gotham-Font/GothamBook.ttf);
+    font-weight: 700;
+}
+
+body, html, #home{
+    height: 100%;
+}
+
+body{
+    font-family: Gotham;
+    background-color: lightgray;
+}
+
+h1{
+    color: black;
+}
+
+.menu a.ativo{
+    color: #07cf00;
+}
+
+.menu a{
+    text-transform: uppercase;
+    color: white;
+    transition: 400ms;
+    font-weight: bold;
+}
+
+.menu span{
+    color: white;
+}
+
+.menu a:hover{
+    color: var(--cor-terciária);
+    /* border-top: 1px solid cyan;
+    border-bottom: 1px solid cyan; */
+}
+
+.navbar-transparente{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.amarelo{
+    color: var(--cor-principal);
+}
+
+.btn-custom{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 500px;
+    transition: 400ms;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-laranja{
+    background-color: var(--cor-secundária);
+}
+
+.btn-laranja:hover{
+    background-color: #07cf00;
+    color: white;
+}
+
+#logo{
+    font-size: 2em;
+    font-family: Gotham, Arial, sans-serif;
+}
+
+/* home */
+
+.caixa{
+    padding: 80px 0;
+}
+
+.alinha{
+    text-align: center;
+}
+
+.fundo{
+    background-color: white;
+}
+
+#home h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* rodape */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
