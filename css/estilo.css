@@ -6,18 +6,18 @@
 
 @font-face{
     font-family: Gotham;
-    src: local(Gotham) url(../fontes/Gotham-Font/GothamMedium.ttf);
+    src: url(../fontes/Gotham-Medium.woff);
 }
 
 @font-face{
     font-family: Gotham;
-    src: local(Gotham) url(../fontes/Gotham-Font/GothamBold.ttf);
+    src: url(../fontes/Gotham-Bold.woff);
     font-weight: bold;
 }
 
 @font-face{
     font-family: Gotham;
-    src: local(Gotham) url(../fontes/Gotham-Font/GothamBook.ttf);
+    src: url(../fontes/Gotham-Book.woff);
     font-weight: 700;
 }
 
