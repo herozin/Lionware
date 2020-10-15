@@ -115,6 +115,8 @@ h1{
 
 .caixa{
     padding: 80px 0;
+    font-family: Gotham;
+    src: local(Gotham) url(../fontes/Gotham-Font/GothamBold.ttf);
 }
 
 .alinha{
