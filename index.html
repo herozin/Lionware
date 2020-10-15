@@ -27,7 +27,7 @@
       <nav class="navbar navbar-expand-lg navbar-transparente fixed-top">
         <div class="container">
           <!-- logo -->
-          <a href="" class="navbar-brand" id="logo"><img src="imagens/LionAZ.png" width="150px" alt=""><span class="logo">Lionware</span></a>
+          <a href="" class="navbar-brand" id="logo"><img src="imagens/LionAZ.png" alt=""><span class="logo">Lionware</span></a>
           <!-- botao menu -->
           <button class="navbar-toggler mr-3" data-toggle="collapse" data-target="#nav-principal" >
             <i class="fas fa-bars text-white"></i>
@@ -47,8 +47,11 @@
 
                 <div class="dropdown-menu bg-dark text-center">
                   <a href="dropdown-item">Assistência remota</a>
+                  <div class="dropdown-divider"></div>
                   <a href="dropdown-item">Desenvolvimento de sistemas</a>
+                  <div class="dropdown-divider"></div>
                   <a href="dropdown-item">Hospedagem de site</a>
+                  <div class="dropdown-divider"></div>
                   <a href="dropdown-item">Crie sua logo</a>
                 </div>
               </li>
@@ -57,9 +60,12 @@
 
                 <div class="dropdown-menu bg-dark text-center">
                   <a href="dropdown-item">Hardware</a>
+                  <div class="dropdown-divider"></div>
                   <a href="dropdown-item">Periféricos</a>
+                  <div class="dropdown-divider"></div>
                   <a href="dropdown-item">Home Office</a>
-                  <a href="dropdown-item">Outros eletrônicos</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="dropdown-item">Eletrônicos</a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -67,26 +73,23 @@
 
                 <div class="dropdown-menu bg-dark text-center">
                   <a href="dropdown-item">HTML Css</a>
+                  <div class="dropdown-divider"></div>
                   <a href="dropdown-item">JavaScript</a>
+                  <div class="dropdown-divider"></div>
                   <a href="dropdown-item">PHP</a>
+                  <div class="dropdown-divider"></div>
                   <a href="dropdown-item">MySQL</a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
-                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Suporte</a>
-
-                <div class="dropdown-menu bg-dark text-center">
-                  <a href="dropdown-item">Como alugar </a>
-                  <a href="dropdown-item"></a>
-                  <a href="dropdown-item"></a>
-                  <a href="dropdown-item">Dúvidas?</a>
-                </div>
+              <li class="nav-item ">
+                <a href="" class="nav-link " aria-expanded="false">Quem somos</a>
               </li>
               <li class="nav-item d-none d-lg-block">
                 <span class="mx-2 nav-link"> | </span>
               </li>
               <li class="nav-item d-flex">
-                <button class="mr-3 ml-auto btn btn-custom btn-laranja">Entrar</button> <button class="btn btn-custom btn-laranja">Cadastre-se</button>
+                <button class="mr-3 ml-auto btn btn-custom btn-laranja">Gerenciar conta</button> 
+                <!-- <button class="btn btn-custom btn-custom-maior btn-laranja">Cadastre-se</button> -->
               </li>
               
             </ul>
@@ -119,27 +122,38 @@
         <div class="row">
 
           <!-- card 1 -->
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <div class="card alinha">
               <div class="card-body">
-                <h4 class="card-title">DJJJj</h4>
-                <h6 class="card-subtitle">Lorem ipsum dolor sit amet</h6>
+                <h4 class="card-title">HTML5 e CSS3</h4>
+                <h6 class="card-subtitle">Frontend</h6>
                 <p class="card-text mt-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet tempus mauris at lobortis. Quisque arcu tortor, facilisis eu dui sit amet, iaculis aliquam dui. Morbi imperdiet eget felis sed posuere.
+                  Aprenda HTML5, CSS3 e JavaScript enquanto monta um site completo com essas tecnologias com o professor Biancovilli.
                 </p>
-                  <button class="btn d-flex ml-auto mr-auto btn-custom btn-laranja btn-preco">R$ 20,00</button>
+                  <button class="btn d-flex ml-auto mr-auto btn-custom btn-laranja btn-preco">R$ 25,00</button>
               </div>
             </div>
           </div>
-
-          <!-- card 2 -->
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <div class="card alinha">
               <div class="card-body">
-                <h4 class="card-title">Lorem ipsum</h4>
-                <h6 class="card-subtitle">Lorem ipsum dolor sit amet</h6>
+                <h4 class="card-title">JavaScript</h4>
+                <h6 class="card-subtitle">Programação Client side</h6>
                 <p class="card-text mt-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet tempus mauris at lobortis. Quisque arcu tortor, facilisis eu dui sit amet, iaculis aliquam dui. Morbi imperdiet eget felis sed posuere.
+                  Curso de JavaScript, voltado para iniciantes sobre ECMAScript, a versão padronizada do JS com o professor Luiz.
+                </p>
+                  <button class="btn d-flex ml-auto mr-auto btn-custom btn-laranja btn-preco">R$ 50,00</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-lg-3">
+            <div class="card alinha">
+              <div class="card-body">
+                <h4 class="card-title">PHP</h4>
+                <h6 class="card-subtitle">Programação backend</h6>
+                <p class="card-text mt-3">
+                  Curso com os primeiros passos para criar sites que utilizem a tecnologia PHP incorporada com a professora Odileia.
                 </p>
                   <button class="btn d-flex ml-auto mr-auto btn-custom btn-laranja btn-preco">R$ 100,00</button>
               </div>
@@ -147,15 +161,15 @@
           </div>
 
           <!-- card 3 -->
-          <div class="col-lg-4">
+          <div id="caixola" class="col-lg-3">
             <div class="card alinha">
               <div class="card-body">
-                <h4 class="card-title">Lorem ipsum</h4>
-                <h6 class="card-subtitle">Lorem ipsum dolor sit amet</h6>
+                <h4 class="card-title">MySQL</h4>
+                <h6 class="card-subtitle">Gerenciador de banco de dados</h6>
                 <p class="card-text mt-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet tempus mauris at lobortis. Quisque arcu tortor, facilisis eu dui sit amet, iaculis aliquam dui. Morbi imperdiet eget felis sed posuere.
+                  Veja como criar um Banco de Dados de maneira simples e interativa com o professor João.
                 </p>
-                  <button class="btn d-flex ml-auto mr-auto btn-custom btn-laranja btn-preco">R$ 200,00</button>
+                  <button class="btn d-flex ml-auto mr-auto btn-custom btn-laranja btn-preco">R$ 25,00</button>
               </div>
             </div>
           </div>
@@ -245,16 +259,16 @@
             <h4>Tecnologias</h4>
             <ul class="navbar-nav">
               <li>
-                <a href="">Lorem ipsum</a>
+                <a href="">Hardware</a>
               </li>
               <li>
-                <a href="">Lorem ipsum</a>
+                <a href="">Periféricos</a>
               </li>
               <li>
-                <a href="">Lorem ipsum</a>
+                <a href="">Home Office</a>
               </li>
               <li>
-                <a href="">Lorem ipsum</a>
+                <a href="">Eletrônicos</a>
               </li>
             </ul>
           </div>
